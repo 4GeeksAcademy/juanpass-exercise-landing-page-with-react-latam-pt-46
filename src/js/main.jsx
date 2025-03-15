@@ -10,9 +10,15 @@ import '../styles/index.css'
 
 // components
 import Home from './components/Home';
+import Navbar from './components/Navbar';
+import Banner from './components/Banner';
+import Cards from './components/Cards';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Home/>
+    <Navbar/>
+    <Banner/>
+    <Cards/>
   </React.StrictMode>,
 )
