@@ -19,6 +19,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Home/>
     <Navbar/>
     <Banner/>
-    <Cards/>
+    <div>
+    <Cards/>    <Cards/>    <Cards/>    <Cards/>
+    </div>
+   
   </React.StrictMode>,
 )
