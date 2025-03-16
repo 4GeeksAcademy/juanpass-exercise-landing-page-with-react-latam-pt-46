@@ -1,17 +1,19 @@
-import React from "react";
+import React from 'react';
 
 const Banner = () => {
-    return (
-
-        <div className="card" style={{width: "18rem;"}}>
-                <div className="card-body">
-                    <h5 className="card-title fs-1">A warm welcome</h5>
-                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" className="btn btn-primary">Go somewhere</a>
-                </div>
-        </div>
-
-    );
+  return (
+    <div className="jumbotron text-left m-4 rounded">
+      <h1 className="display-3">A Warm Welcome!</h1>
+      <p className="lead">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam,
+        eligendi, in quo sunt possimus non incidunt odit vero aliquid similiqu
+        e quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.
+      </p>
+      <a href="#" className="btn btn-primary fs-4">
+        Call to action!
+      </a>
+    </div>
+  );
 };
 
 export default Banner;

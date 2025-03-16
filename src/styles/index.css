@@ -9,3 +9,33 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    margin-top: 10vh;
+    flex-shrink: 0;
+  }
+
+  .jumbotron {
+    background-color: #eaecef;
+    padding: 60px 30px;
+    margin-bottom: 30px;
+    align-items: start;
+  }
+  
+  .display-4 {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  
+  .lead {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  
+  .btn-primary {
+    margin-top: 30px;
+  }
